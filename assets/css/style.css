@@ -69,24 +69,24 @@ nav ul li a:link, nav ul li a:visited {
 }
 
 #form {
-	padding: 15px 20px 20px 45px;
+	padding: 15px 30px 20px 20px;
 	background-color: #ffffff;
 	float: left;
 	width: 650px;
 	border: 1px solid #dddddd;
-	margin: 30px 20px 50px 120px;
+	margin: 30px 20px 50px 110px;
 	overflow: auto;
 	color: #777777;
 }
 
 #portfolio {
-	padding: 15px 20px 20px 45px;
+	padding: 15px 30px 20px 20px;
+	height: 800px;
 	background-color: #ffffff;
 	float: left;
 	width: 650px;
 	border: 1px solid #dddddd;
-	margin: 30px 20px 50px 120px;
-	overflow: auto;
+	margin: 30px 20px 50px 110px;
 	color: #777777;
 }
 
@@ -101,23 +101,128 @@ nav ul li a:link, nav ul li a:visited {
 	text-align: center;
 }
 
-#portimg
-{
-	height: 150px;
-	width: 200px;
+#background1 {
 	padding-right: 20px;
 	padding-bottom: 20px;
-	margin: 0px
-}
-
-#rightimgs {
-	float: right;
-	vertical-align: right
-}
-
-#leftimgs {
+	margin: 0px;
+	position: relative;
+	text-align: left;
 	float: left;
-	vertical-align: left;
+}
+
+#port1 {
+	background-color: #4aaaa5;
+	position: absolute;
+	bottom: 40px;
+	color: white;
+	z-index: 1;
+	width: 200px;
+	text-align: center;
+}
+
+#background2 {
+	padding-right: 20px;
+	padding-bottom: 20px;
+	margin: 0px;
+	position: relative;
+	text-align: left;
+	float: left;
+}
+
+#port2 {
+	background-color: #4aaaa5;
+	position: absolute;
+	bottom: 40px;
+	color: white;
+	z-index: 2;
+	width: 200px;
+	text-align: center;
+}
+
+#background3 {
+	padding-right: 20px;
+	padding-bottom: 20px;
+	margin: 0px;
+	position: relative;
+	text-align: left;
+	float: left;
+}
+
+#port3 {
+	background-color: #4aaaa5;
+	position: absolute;
+	bottom: 40px;
+	color: white;
+	z-index: 1;
+	width: 200px;
+	text-align: center;
+}
+
+#background4 {
+	padding-right: 20px;
+	padding-bottom: 20px;
+	margin: 0px;
+	position: relative;
+	text-align: left;
+	float: left;
+}
+
+#port4 {
+	background-color: #4aaaa5;
+	position: absolute;
+	bottom: 40px;
+	color: white;
+	z-index: 1;
+	width: 200px;
+	text-align: center;
+}
+
+#background5 {
+	padding-right: 20px;
+	padding-bottom: 20px;
+	margin: 0px;
+	position: relative;
+	text-align: left;
+	float: left;
+}
+
+#port5 {
+	background-color: #4aaaa5;
+	position: absolute;
+	bottom: 40px;
+	color: white;
+	z-index: 1;
+	width: 200px;
+	text-align: center;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 0px 0;
+    border: 1px solid #ccc;
+    color: #777777;
+}
+
+input[type=textarea], select {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 0px 0;
+    border: 1px solid #ccc;
+    color: #777777;
+    height: 200px;
+}
+
+input[type=submit], select {
+    width: 100px;
+    height: 20px;
+    padding: 10px 20px 30px 20px;
+    margin: 20px 0px 20px 0px;
+    border: 1px solid #ccc;
+    color: #777777;
+    font-size: 14px;
+    color: #ffffff;
+    background: #4aaaa5;
 }
 
 footer {
