@@ -4,11 +4,9 @@ body {
 	line-height: 34px;
 	font-size: 14px;
 }
-
 * {
 	box-sizing: border-box;
 }
-
 #heading {
 	background: #ffffff;
 	border-bottom: 2px solid #cccccc;
@@ -17,7 +15,6 @@ body {
 	margin-top: -20px;
 	margin-left: -10px;
 }
-
 #name {
 	width: 250px;
 	height: 90px;
@@ -31,30 +28,24 @@ body {
 	margin: 0px 0px 0px 120px;
 	font-weight: bold;
 }
-
 nav {
 	float: left;
 	margin: 10px 15px 0px 200px;
 	position: absolute;
 	display: inline;
 	margin: 35px 0px 0px 460px;
-
 }
-
 nav ul li {
 	color: #777777;
 	text-decoration: none;
 	display: inline;
 	padding: 5px 10px 5px 10px;
 }
-
-
 nav ul li a:link, nav ul li a:visited {
 	color: #777777;
 	border-bottom: none;
 	text-decoration: none;
 }
-
 #aboutmep {
 	border-bottom: 2px solid #dddddd;
 	padding-bottom: 20px;
@@ -64,7 +55,6 @@ nav ul li a:link, nav ul li a:visited {
 	font-weight: bold;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
-
 #connectwithme {
 	border-bottom: 1px solid #dddddd;
 	padding-bottom: 15px;
@@ -75,18 +65,15 @@ nav ul li a:link, nav ul li a:visited {
 	padding: 0px 20px 20px 20px;
 	margin: 20px;
 }
-
 #icons {
 	padding-top: 20px;
 	padding: 5px;
 }
-
 #github {
 	padding-right: 5px;
 	padding-bottom: 7px;
 	padding-top: 1px;
 }
-
 #linkedin {
 	padding-right: 5px;
 	padding-bottom: 5px;
@@ -94,7 +81,6 @@ nav ul li a:link, nav ul li a:visited {
 #so {
 	padding-bottom: 7px;
 }
-
 #aboutme {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	padding: 15px 30px 20px 30px;
@@ -107,17 +93,14 @@ nav ul li a:link, nav ul li a:visited {
 	overflow: auto;
 	color: #777777;
 }
-
 #abouttext {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;;
 	padding-top: 10px;
 }
-
 #profileimg {
 	padding: 10px 20px 10px 0px;
 	margin: 10px 0px 0px 0px;
 }
-
 #form {
 	padding: 15px 30px 20px 30px;
 	margin: 50px 20px 50px 110px;
@@ -128,7 +111,6 @@ nav ul li a:link, nav ul li a:visited {
 	overflow: auto;
 	color: #777777;
 }
-
 #portfolio {
 	padding: 15px 30px 20px 30px;
 	margin: 50px 20px 50px 110px;
@@ -139,11 +121,9 @@ nav ul li a:link, nav ul li a:visited {
 	border: 1px solid #dddddd;
 	color: #777777;
 }
-
 #form1 {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
-
 #connect {
 	background: #ffffff;
 	padding: 15px;
@@ -156,7 +136,6 @@ nav ul li a:link, nav ul li a:visited {
 	margin-left: 5px;
 	margin-right: 5px;
 }
-
 #background1 {
 	padding-bottom: 20px;
 	margin: 0px;
@@ -165,7 +144,6 @@ nav ul li a:link, nav ul li a:visited {
 	float: left;
 	padding-right: 55px;
 }
-
 #port1 {
 	background-color: #4aaaa5;
 	position: absolute;
@@ -175,7 +153,6 @@ nav ul li a:link, nav ul li a:visited {
 	width: 265px;
 	text-align: center;
 }
-
 #background2 {
 	padding-bottom: 20px;
 	margin: 0px;
@@ -183,7 +160,6 @@ nav ul li a:link, nav ul li a:visited {
 	text-align: left;
 	float: left;
 }
-
 #port2 {
 	background-color: #4aaaa5;
 	position: absolute;
@@ -193,7 +169,6 @@ nav ul li a:link, nav ul li a:visited {
 	width: 265px;
 	text-align: center;
 }
-
 #background3 {
 	padding-bottom: 20px;
 	margin: 0px;
@@ -202,7 +177,6 @@ nav ul li a:link, nav ul li a:visited {
 	float: left;
 	padding-right: 55px;
 }
-
 #port3 {
 	background-color: #4aaaa5;
 	position: absolute;
@@ -212,7 +186,6 @@ nav ul li a:link, nav ul li a:visited {
 	width: 265px;
 	text-align: center;
 }
-
 #background4 {
 	padding-bottom: 20px;
 	margin: 0px;
@@ -220,7 +193,6 @@ nav ul li a:link, nav ul li a:visited {
 	text-align: left;
 	float: left;
 }
-
 #port4 {
 	background-color: #4aaaa5;
 	position: absolute;
@@ -230,7 +202,6 @@ nav ul li a:link, nav ul li a:visited {
 	width: 265px;
 	text-align: center;
 }
-
 #background5 {
 	padding-bottom: 20px;
 	margin: 0px;
@@ -239,7 +210,6 @@ nav ul li a:link, nav ul li a:visited {
 	float: left;
 	padding-right: 55px;
 }
-
 #port5 {
 	background-color: #4aaaa5;
 	position: absolute;
@@ -249,12 +219,10 @@ nav ul li a:link, nav ul li a:visited {
 	width: 265px;
 	text-align: center;
 }
-
 #allprojects {
 	padding-top: 30px;
 	font-size: 16px;
 }
-
 input[type=text], select {
     width: 100%;
     padding: 10px 10px;
@@ -263,7 +231,6 @@ input[type=text], select {
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
-
 input[type=textarea], select {
     width: 100%;
     height: 200px;
@@ -273,7 +240,6 @@ input[type=textarea], select {
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
-
 input[type=submit], select {
     width: 100px;
     height: 20px;
@@ -285,7 +251,6 @@ input[type=submit], select {
     color: #ffffff;
     background: #4aaaa5;
 }
-
 footer {
 	clear: both;
 	border: 1px solid;
@@ -296,13 +261,11 @@ footer {
 	border-top: 8px solid #4aaaa5;
 	padding: 25px 0px 25px 0px;
 }
-
 h1 {
 	border-bottom: 2px solid #dddddd;
 	padding-bottom: 20px;
 	color: #4aaaa5;
 }
-
 h2 {
 	border-bottom: 1px solid #dddddd;
 	padding-bottom: 20px;
