@@ -11,62 +11,113 @@ body {
 
 #heading {
 	background: #ffffff;
-	color: #ffffff;
-	border-bottom: 2px solid #ccc;
-	position: fixed;
-	width: 100%;
+	border-bottom: 2px solid #cccccc;
+	width: 1210px;
+	height: 90px;
+	margin-top: -20px;
+	margin-left: -10px;
 }
 
 #name {
 	width: 250px;
 	height: 90px;
 	background: #4aaaa5;
+	color: #ffffff;
 	float: left;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 30px;
 	text-align: center;
 	padding: 30px 0px 0px 0px;
+	margin: 0px 0px 0px 120px;
 }
 
 nav {
-	float: right;
+	float: left;
+	margin: 10px 15px 0px 420px;
+	position: absolute;
+	display: inline;
 }
 
 nav ul li {
-	color: #999;
+	color: #777777;
 	text-decoration: none;
 	display: inline;
 	padding: 5px 10px 5px 10px;
 	border-right: 1px solid gray;
 }
 
+
 .contact a {
 	border-right: none;
 }
 
 nav ul li a:link, nav ul li a:visited {
-	color: #954b4b;
+	color: #777777;
 	border-bottom: none;
-	font-weight: bold;
 	text-decoration: none;
 }
 
 #aboutme {
-	padding: 100px 20px 20px 20px;
+	padding: 15px 30px 20px 20px;
 	background-color: #ffffff;
 	float: left;
 	width: 650px;
-	border: 1px solid #ddd;
-	margin: 0px 0px 50px 0px;
+	border: 1px solid #dddddd;
+	margin: 30px 20px 50px 110px;
+	overflow: auto;
+	color: #777777;
+}
+
+#form {
+	padding: 15px 20px 20px 45px;
+	background-color: #ffffff;
+	float: left;
+	width: 650px;
+	border: 1px solid #dddddd;
+	margin: 30px 20px 50px 120px;
+	overflow: auto;
+	color: #777777;
+}
+
+#portfolio {
+	padding: 15px 20px 20px 45px;
+	background-color: #ffffff;
+	float: left;
+	width: 650px;
+	border: 1px solid #dddddd;
+	margin: 30px 20px 50px 120px;
+	overflow: auto;
+	color: #777777;
 }
 
 #connect {
 	background: #ffffff;
-	padding: 30px;
-	float: right;
-	border: 1px solid #ddd;
+	padding: 10px;
+	float: left;
+	border: 1px solid #dddddd;
 	width: 270px;
-	margin: 100px 50px 50px 20px;
+	margin: 30px 50px 50px 20px;
+	overflow: auto;
+	text-align: center;
+}
+
+#portimg
+{
+	height: 150px;
+	width: 200px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	margin: 0px
+}
+
+#rightimgs {
+	float: right;
+	vertical-align: right
+}
+
+#leftimgs {
+	float: left;
+	vertical-align: left;
 }
 
 footer {
@@ -80,12 +131,16 @@ footer {
 }
 
 h1 {
-	border-bottom: 1px solid black;
+	border-bottom: 2px solid #dddddd;
 	padding-bottom: 20px;
+	color: #4aaaa5;
 }
 
 h2 {
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid #dddddd;
 	padding-bottom: 20px;
+	color: #4aaaa5;
 }
+
+\
 
